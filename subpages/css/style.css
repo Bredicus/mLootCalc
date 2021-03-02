@@ -1,0 +1,136 @@
+html {
+  height:100%;
+}
+body {
+  background-color:#000;
+  margin:0;
+  padding:0;
+  height:90%;
+  color:#d2dfe6;
+  background:url(../images/background.png) no-repeat center top fixed;
+  background-size:cover;
+  position:relative;
+  z-index:0;
+}
+a {
+  color: inherit;
+}
+h1 {
+  padding-top:20px; 
+  margin-left:13.5%;
+}
+input {
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.small-input {
+  width: 60%;
+}
+.logo {
+  width: 12%;
+  height: auto;
+  position: absolute;
+  left: 75%;
+  -webkit-transform: translateX(-75%);
+  transform: translateX(-75%)
+}
+.drop-down {
+  margin-top:5px; 
+  margin-left:13.5%;
+  margin-right:4%;
+  padding: 12px 20px;
+  width:20%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.add-button-img {
+  position: absolute;
+  margin-top:0px;
+  width:180px;
+  height:55px;
+  cursor:pointer;
+}
+.tab {
+  margin: auto;
+  margin-top: 3%;
+  width:73%;
+  overflow: hidden;
+  border: 2px solid #243745;
+  border-style: dotted;
+  background-color: #060a0d;
+  white-space: nowrap;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color:#d2dfe6;
+}
+.tablinks:hover {
+  background-color: #243745;
+}
+.tab button.active {
+  background-color: #192126;
+}
+.tabcontent {
+  padding: 6px 8px;
+}
+.tracker {
+  margin: auto;
+  width:73%;
+  height:73%;
+  border-bottom:1px solid gray;
+  border-left:1px solid gray;
+  border-right:1px solid gray;
+  background:url(../images/block.png);
+  opacity:0.9;
+  overflow: auto;
+}
+.record-div {
+  margin-bottom: 15px;
+}
+.record-img {
+  padding: 4px;
+  width: 52px;
+  height: 52px;
+}
+.icon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24px;
+  height: 24px;
+}
+.inline-center {
+  text-align: center;
+}
+.loot-total {
+  color: green;
+  margin-left: 25%;
+}
+.supply-total {
+  color: red;
+  margin-left: 5%;
+}
+.unactive-button {
+  display: inline-block;
+  font-weight: bold;
+  white-space: nowrap;
+}

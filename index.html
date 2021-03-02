@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./subpages/css/style.css">
+</head>
+<body>
+	<img class="logo" src="./subpages/images/logo1.png" />
+	
+	<div>
+		<h1 id="total">Total: 0</h1>
+		<select class="drop-down" id="ddcreatures" onchange="ddCreatureFocus()" tabindex="1"></select>
+		<select class="drop-down" id="ddsupplies" onchange="ddSupplyFocus()" tabindex="1"></select>
+
+		<img class="add-button-img" id="button0" src="./subpages/images/add_button.png" tabindex="2"/>
+		<img class="add-button-img" id="button1" src="./subpages/images/add_button.png" tabindex="2"/>
+	</div>
+
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'creatures')">Creatures</button>
+		<button class="tablinks" onclick="openTab(event, 'supplies')">Supplies</button>
+		<p class="loot-total unactive-button">Loot: 0</p>
+		<p class="supply-total unactive-button">Waste: 0</p>
+	</div>
+
+	<div class ="tracker">
+		<div class ="tabcontent" id="creatures">
+		</div>
+
+		<div class ="tabcontent" id="supplies">
+		</div>
+	</div>
+</body>
+<script language="javascript" type="text/javascript" src="./subpages/data/creatures.js"></script>
+<script language="javascript" type="text/javascript" src="./subpages/data/supplies.js"></script>
+<script language="javascript" type="text/javascript" src="./subpages/javascript/script.js"></script>
+</html>
